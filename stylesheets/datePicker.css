@@ -1,0 +1,29 @@
+body {
+    display: block;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+input {
+    outline: 0;
+}
+
+.title {
+    display: block;
+    font-size: 50px;
+    color: brown;
+}
+
+.date-picker {
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.date-picker:focus {
+    outline: 2px solid #006cb7;
+}
